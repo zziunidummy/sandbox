@@ -463,11 +463,10 @@
                         fill = '#5eed5e';
                     }
                 }
-                return fill;
+                   return fill;
             })
         ;
     }
-
     function getItemDependency(d){
         if( currentType === CONT.TYPE_WORKFLOW ){
             return { label: 'Sub Workflow', count: d.numberOfSubWorkflow};
