@@ -6,10 +6,7 @@
             TYPE_PROJECT: '',
             TYPE_WORKFLOW: 'workflow',
             TYPE_NODE: 'node'
-        },
-        timelineTypes = [CONT.TYPE_WORKFLOW, CONT.TYPE_NODE],
-        currentType,
-        targetDate;
+        };
 
     /******************************
      ** Define moduel.
